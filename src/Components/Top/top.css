@@ -1,0 +1,15 @@
+.container{
+    margin: 0%;
+    background-color: rgb(130, 194, 94);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.header{
+    padding:2cqi 30px;
+
+}
+
+.header, h1{
+    color: white;
+}

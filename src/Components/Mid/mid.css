@@ -1,0 +1,113 @@
+.body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+.addtext{
+    display: flex;
+    padding: 3%;
+}
+
+
+.tt{
+    width: 50%;
+    padding: 3%;
+    font-weight: 200;
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+    /* border-style: none; */
+    
+}
+
+.ta{
+    width: 100%;
+    padding: 3%;
+    font-weight: 200;
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.mid{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    flex:auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.btn{
+    font-weight: bold;
+    height: 40px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(130, 194, 94);
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: rgb(91, 141, 63);
+}
+
+.card{
+    width: 150px;
+    padding: 2% 2%;
+}
+
+.title{
+    width: 100%;
+    padding: 3%;
+    font-weight: bold;
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: rgb(130, 194, 94);
+}
+
+.content{
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 3%;
+    font-size: 16px;
+}
+
+.delete{
+    width: 50px;
+    background-color: rgb(151, 188, 134);
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    margin: 3%;
+    opacity: 0;
+}
+
+.edit{
+    width: 50px;
+    background-color: rgb(151, 188, 134);
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    margin: 3%;
+    opacity: 0;
+}
+
+.card:hover{
+    .delete{
+        opacity: 0.7;
+        transition: opacity 0.9s ease
+    }
+    .delete:hover{
+        background-color:rgb(92, 172, 57) ;
+    }
+
+    .edit{
+        opacity: 0.7;
+        transition: opacity 0.9s ease
+    }
+    .edit:hover{
+        background-color:rgb(92, 172, 57) ;
+    }
+}
